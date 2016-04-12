@@ -1,14 +1,51 @@
 body {
   font-family: Lobster, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 400px;
   font-style: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20px;
   max-width: 760px;
   padding: 24px;
   margin: 0 auto;
-color: red
+  color: white;
+  background: #46a510;
 }
+
+.portfolio-content {
+  float: left;
+  width: 500px;
+}
+
+  .site-nav a {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    background-color: blue
+  }
+
+  .site-nav a:hover
+  .site-nav a: focus {
+    background-color:yellow;
+  }
+
+  @media (min-width:37.5em) {
+
+    .site-nav {
+      width: 100%
+      background-color:blue;
+    }
+
+    .site-nav li {
+      display: inline-block;
+    }
+
+  }
+
+.masked {
+  background: linear-gradient( 135deg, red, yellow, blue );
+  background: -webkit-linear-gradient( red, yellow 60%, blue );
+}
+
 h1 {
   font-family: inherit;
   font-weight: 600;
@@ -26,6 +63,7 @@ h2 {
   line-height: 48px;
   margin-top: 24px;
   margin-bottom: 24px;
+  color: red
 }
 h3 {
   font-family: inherit;

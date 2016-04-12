@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  background: green;
+
+  .site-nav a {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: red;
+    background-color: green
+  }
+
+.site-nav a:hover,
+.site-nav a:focus{
+  background-color: yellow
+  
+}
